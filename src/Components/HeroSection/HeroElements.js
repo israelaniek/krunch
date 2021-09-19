@@ -33,7 +33,7 @@ export const HeroBtnWrapper = styled.div `
 
 export const AngleDown = styled(FaAngleDown) `
     font-size: 50px;
-    margin-top: 100px;
+    margin-top: 60px;
 
     &:hover {
         color: #4D8CF5;

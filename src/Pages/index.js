@@ -1,4 +1,5 @@
 import React from "react";
+import AboutUs from "../Components/AboutUsSection";
 import HeroSection from "../Components/HeroSection";
 import Navbar from "../Components/Navbar";
 
@@ -7,6 +8,7 @@ const HomePage = () => {
     <>
       <Navbar />
       <HeroSection />
+      <AboutUs />
     </>
   );
 };

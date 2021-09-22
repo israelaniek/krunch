@@ -20,17 +20,14 @@ export const AboutUsSubHeading = styled.p`
   font-size: 20px;
 `;
 export const AboutUsWrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
+  display: grid;
+  grid-template-columns: 600px auto;
   margin-top: 100px;
 
 `;
 export const AboutUsDescription = styled.p`
     text-align: left;
     color: #5C5C5C;
-    padding: 0 70px;    
+    /* padding: 0 250px;     */
 `;
-export const AboutUsImg = styled.img`
-`;
+

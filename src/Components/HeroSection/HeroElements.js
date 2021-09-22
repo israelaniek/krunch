@@ -29,11 +29,12 @@ export const HeroParagraph = styled.p `
 `
 export const HeroBtnWrapper = styled.div `
     display: flex;
+    
 `
 
 export const AngleDown = styled(FaAngleDown) `
     font-size: 50px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
 
     &:hover {
         color: #4D8CF5;

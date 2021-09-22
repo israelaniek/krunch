@@ -7,7 +7,9 @@ import {
   PortfolioHeading,
   PortfolioSubheading,
   PortfolioWrapper,
+  Text,
 } from "./PortfolioElement";
+import {Button} from '../Button'
 
 const PortfolioSection = () => {
   return (
@@ -83,6 +85,9 @@ const PortfolioSection = () => {
           <ImgDescription>Home Design</ImgDescription>
         </ImageWrapper>
       </PortfolioWrapper>
+      <Text>Have a Project in Mind?</Text>
+      <Button isTransparent={true}>Contact Now</Button>
+
     </PortfolioContainer>
   );
 };

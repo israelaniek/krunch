@@ -60,3 +60,10 @@ export const ImgDescription = styled.p`
     opacity: 1;
   }
 `;
+
+export const Text = styled.p`
+  font-style: italic;
+  color: #5c5c76;
+  font-size: 30px;
+  margin: 35px 0;
+`;

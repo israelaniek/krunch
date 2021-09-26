@@ -1,5 +1,6 @@
 import React from "react";
 import AboutUs from "../Components/AboutUsSection";
+import AwesomeTeamSection from "../Components/AwesomeTeamSection";
 import HeroSection from "../Components/HeroSection";
 import Navbar from "../Components/Navbar";
 import PortfolioSection from "../Components/PortfolioSection";
@@ -15,6 +16,7 @@ const HomePage = () => {
       <PortfolioSection />
       {/* <TestimonialSection /> */}
       <Services />
+      <AwesomeTeamSection />
     </>
   );
 };

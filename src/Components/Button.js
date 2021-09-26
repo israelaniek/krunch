@@ -13,10 +13,12 @@ export const Button = styled.div`
   text-transform: uppercase;
   margin-right: 20px;
   text-align: center;
+  color: #fff;
 
   &:hover {
     background: ${({ isTransparent }) =>
       isTransparent ? "#4D8CF5" : "#352317"};
+    color: #fff;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
   }

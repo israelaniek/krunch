@@ -3,6 +3,7 @@ import AboutUs from "../Components/AboutUsSection";
 import AwesomeTeamSection from "../Components/AwesomeTeamSection";
 import ContactUsSection from "../Components/ContactUsSection";
 import DownloadNowSection from "../Components/DownloadNowSection";
+import Footer from "../Components/Footer";
 import HeroSection from "../Components/HeroSection";
 import LatestNewsSection from "../Components/LatestNewsSection";
 import Navbar from "../Components/Navbar";
@@ -23,6 +24,7 @@ const HomePage = () => {
       <DownloadNowSection />
       <LatestNewsSection />
       <ContactUsSection />
+      <Footer />
     </>
   );
 };

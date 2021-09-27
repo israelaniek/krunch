@@ -5,6 +5,7 @@ export const ContactUsContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 50px 150px;
+  margin-bottom: 100px;
 `;
 export const ContactUsHeading = styled.h2`
   font-weight: 500;

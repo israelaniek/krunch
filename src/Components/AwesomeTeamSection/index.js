@@ -22,7 +22,7 @@ import {
 
 const AwesomeTeamSection = () => {
   return (
-    <AwesomeTeamContainer>
+    <AwesomeTeamContainer id='team'>
       <AwesomeTeamHeading>Awesome Team</AwesomeTeamHeading>
       <AwesomeTeamSubHeading>
         Setibulum rutrum quam vitae fringilla tincidunt

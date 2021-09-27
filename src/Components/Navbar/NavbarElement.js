@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { Link as LinkS } from "react-scroll";
 
-
 export const NavbarContainer = styled.div`
   width: 100%;
   height: auto;
@@ -9,8 +8,18 @@ export const NavbarContainer = styled.div`
   padding: 30px 200px;
   justify-content: space-between;
   align-items: center;
-  background: #373a40;
+  background: ${({ scrollNav }) =>
+    scrollNav ? "rgba(34, 34, 34, 0.9)" : "transparent"};
   color: #fff;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  z-index: 9999;
+  transform: translateX(0px) translateY(-100%) translateZ(0px);
+  transform: ${({ scrollNav }) =>
+    scrollNav ? "translateX(0px) translateY(-0%) translateZ(0px)" : "none"};
+  transition: all 500ms ease 0s;
 `;
 
 export const NavbarLogo = styled.h1`

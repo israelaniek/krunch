@@ -13,7 +13,7 @@ import { Button } from "../Button";
 
 const PortfolioSection = () => {
   return (
-    <PortfolioContainer>
+    <PortfolioContainer id='portfolio'>
       <PortfolioHeading>Portfolio</PortfolioHeading>
       <PortfolioSubheading>
         An eye for detail makes our work beautiful

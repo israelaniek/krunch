@@ -20,7 +20,7 @@ import {
 
 const LatestNewsSection = () => {
   return (
-    <LatestNewsContainer>
+    <LatestNewsContainer id='blog'>
       <LatestNewsHeading>Latest News</LatestNewsHeading>
       <LatestNewsSubHeading>
         Check out our latest news and activities

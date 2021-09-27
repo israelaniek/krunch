@@ -23,7 +23,7 @@ import {
 
 const Services = () => {
   return (
-    <ServicesContainer>
+    <ServicesContainer id='services'>
       <ServicesHeader>Services</ServicesHeader>
       <ServicesSubHeading>
         Scope of our featured premium services

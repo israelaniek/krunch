@@ -10,7 +10,7 @@ import {
 
 const AboutUs = () => {
   return (
-    <AboutUsContainer>
+    <AboutUsContainer id='about'>
       <AboutUsHeading>About Us</AboutUsHeading>
       <AboutUsSubHeading>
         Setibulum makeup for the life of our customers

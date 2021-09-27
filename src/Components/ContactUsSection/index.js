@@ -14,7 +14,7 @@ import {
 
 const ContactUsSection = () => {
   return (
-    <ContactUsContainer>
+    <ContactUsContainer id='contact'>
       <ContactUsHeading>Keep In Touch</ContactUsHeading>
       <ContactUsSubheading>
         Setibulum rutrum quam vitae fringilla tincidunt

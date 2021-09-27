@@ -1,6 +1,7 @@
 import React from "react";
 import AboutUs from "../Components/AboutUsSection";
 import AwesomeTeamSection from "../Components/AwesomeTeamSection";
+import ContactUsSection from "../Components/ContactUsSection";
 import DownloadNowSection from "../Components/DownloadNowSection";
 import HeroSection from "../Components/HeroSection";
 import LatestNewsSection from "../Components/LatestNewsSection";
@@ -21,6 +22,7 @@ const HomePage = () => {
       <AwesomeTeamSection />
       <DownloadNowSection />
       <LatestNewsSection />
+      <ContactUsSection />
     </>
   );
 };

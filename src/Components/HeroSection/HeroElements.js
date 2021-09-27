@@ -4,7 +4,7 @@ import {FaAngleDown} from 'react-icons/fa'
 
 export const HeroContainer = styled.div `
     width: 100%;
-    height: 80vh;
+    height: 76vh;
     padding: 50px 200px;
     display: flex;
     flex-direction: column;

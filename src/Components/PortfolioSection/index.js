@@ -9,7 +9,7 @@ import {
   PortfolioWrapper,
   Text,
 } from "./PortfolioElement";
-import {Button} from '../Button'
+import { Button } from "../Button";
 
 const PortfolioSection = () => {
   return (
@@ -86,8 +86,9 @@ const PortfolioSection = () => {
         </ImageWrapper>
       </PortfolioWrapper>
       <Text>Have a Project in Mind?</Text>
-      <Button isTransparent={true}>Contact Now</Button>
-
+      <Button isTransparent={true} style={{color:'#000'}}>
+        Contact Now 
+      </Button>
     </PortfolioContainer>
   );
 };

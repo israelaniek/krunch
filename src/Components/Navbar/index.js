@@ -1,13 +1,16 @@
-import { React, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import {
+  MobileIcon,
   NavbarContainer,
   NavbarLink,
   NavbarLinks,
   NavbarLinksWrapper,
   NavbarLogo,
 } from "./NavbarElement";
+import { FaBars } from "react-icons/fa";
+import { animateTopScroll as Scroll } from "react-scroll/modules/mixins/animate-scroll";
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
@@ -21,9 +24,17 @@ const Navbar = () => {
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
   });
+
+  // const toggleHome = () => {
+  //   Scroll.scrollToTop();
+  // };
+
   return (
     <NavbarContainer scrollNav={scrollNav}>
-      <NavbarLogo>Krunch</NavbarLogo>
+      <NavbarLogo to="/">Krunch</NavbarLogo>
+      <MobileIcon onClick={toggle} isOpen={toggle}>
+        <FaBars />
+      </MobileIcon>
       <NavbarLinksWrapper>
         <NavbarLinks>
           <NavbarLink
@@ -32,7 +43,7 @@ const Navbar = () => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={-90}
           >
             Home
           </NavbarLink>
@@ -52,7 +63,7 @@ const Navbar = () => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={-105}
           >
             Portfolio
           </NavbarLink>
@@ -62,7 +73,7 @@ const Navbar = () => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={-70}
           >
             Services
           </NavbarLink>
@@ -72,7 +83,7 @@ const Navbar = () => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={-70}
           >
             Team
           </NavbarLink>
@@ -82,7 +93,7 @@ const Navbar = () => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={-70}
           >
             Blog
           </NavbarLink>
@@ -92,7 +103,7 @@ const Navbar = () => {
             duration={500}
             spy={true}
             exact="true"
-            offset={-80}
+            offset={-70}
           >
             Contact
           </NavbarLink>

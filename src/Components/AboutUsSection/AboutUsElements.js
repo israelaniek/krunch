@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const AboutUsContainer = styled.div`
-  padding: 0 150px 50px 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,12 +21,20 @@ export const AboutUsSubHeading = styled.p`
 export const AboutUsWrapper = styled.div`
   display: grid;
   grid-template-columns: 600px auto;
+  column-gap: 10px;
   margin-top: 100px;
+  /* padding-right: 15px;
+  padding-left: 15px; */
 
+  @media screen and (max-width: 1050px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: 400px; */
+  }
 `;
 export const AboutUsDescription = styled.p`
-    text-align: left;
-    color: #5C5C5C;
-    /* padding: 0 250px;     */
+  font-size: 16px;
+  text-align: left;
+  color: #5c5c5c;
 `;
-

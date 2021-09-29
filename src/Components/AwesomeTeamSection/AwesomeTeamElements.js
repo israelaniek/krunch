@@ -4,7 +4,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { TiSocialLinkedin } from "react-icons/ti";
 
 export const AwesomeTeamContainer = styled.div`
-  padding: 50px 150px;
+  /* padding: 50px 150px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,6 +29,16 @@ export const AwesomeTeamRow = styled.div`
   display: grid;
   grid-template-columns: 250px 250px 250px 250px;
   grid-column-gap: 30px;
+
+  @media screen and (max-width: 1405px) {
+    grid-template-columns: 250px 250px 250px;
+  }
+  @media screen and (max-width: 1045px) {
+    grid-template-columns: 250px 250px;
+  }
+  @media screen and (max-width: 673px) {
+    grid-template-columns: 250px;
+  }
 `;
 export const AwesomeTeamCol1 = styled.div`
   display: flex;

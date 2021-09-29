@@ -2,10 +2,10 @@ import styled from "styled-components";
 import { FaAngleDown } from "react-icons/fa";
 import { Link as LinkS } from "react-scroll";
 
-export const HeroContainer = styled.div`
+export const HeroContainer = styled.section`
   width: 100%;
-  height: 76vh;
-  /* padding: 50px 200px; */
+  /* position: fixed; */
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,7 +19,10 @@ export const HeroContainer = styled.div`
   background-repeat: no-repeat;
   color: #fff;
 
-  
+  @media screen and (max-width: 1050px) {
+    width: 100%;
+  }
+
 `;
 export const ContentWrapper = styled.div`
   width: 100%;
@@ -55,6 +58,10 @@ export const HeroParagraph = styled.p`
 `;
 export const HeroBtnWrapper = styled.div`
   display: flex;
+
+  @media screen and (max-width: 642px) {
+    flex-direction: column;
+  }
 `;
 
 export const ArrowWrapper = styled(LinkS)`

@@ -7,7 +7,7 @@ import { GrMagic } from "react-icons/gr";
 import { TiWorld } from "react-icons/ti";
 
 export const ServicesContainer = styled.div`
-  padding: 50px 150px;
+  /* padding: 50px 150px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,15 +36,42 @@ export const Row1 = styled.div`
   grid-template-columns: auto auto auto;
   grid-column-gap: 30px;
   margin-bottom: 50px;
+
+  @media screen and (max-width: 1376px) {
+    grid-template-columns: auto auto;
+  }
+  @media screen and (max-width: 894px) {
+    grid-template-columns: auto;
+  }
+  margin-bottom: 10px;
 `;
 export const Row2 = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
   grid-column-gap: 30px;
+
+  @media screen and (max-width: 1376px) {
+    grid-template-columns: auto auto;
+  }
+  @media screen and (max-width: 894px) {
+    grid-template-columns: auto;
+  }
 `;
-export const Col1 = styled.div``;
-export const Col2 = styled.div``;
-export const Col3 = styled.div``;
+export const Col1 = styled.div`
+  @media screen and (max-width: 894px) {
+    margin-bottom: 10px;
+  }
+`;
+export const Col2 = styled.div`
+  @media screen and (max-width: 894px) {
+    margin-bottom: 10px;
+  }
+`;
+export const Col3 = styled.div`
+  @media screen and (max-width: 894px) {
+    margin-bottom: 10px;
+  }
+`;
 export const ColHeading = styled.h2`
   font-size: 20px;
   line-height: 28px;

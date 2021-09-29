@@ -22,7 +22,7 @@ const HeroSection = () => {
           comfortable with the free life.{" "}
         </HeroParagraph>
         <HeroBtnWrapper>
-          <Button isTransparent={false}>Download now</Button>
+          <Button isTransparent={false} marginBottom>Download now</Button>
           <Button isTransparent={true}>View Features</Button>
         </HeroBtnWrapper>
       </ContentWrapper>

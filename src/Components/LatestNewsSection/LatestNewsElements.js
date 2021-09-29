@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
 export const LatestNewsContainer = styled.div`
-  padding: 50px 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,10 +25,29 @@ export const LatestNewsWrapper = styled.div`
   display: grid;
   grid-template-columns: 350px 350px 350px;
   grid-column-gap: 20px;
+
+  @media screen and (max-width: 1420px) {
+    grid-template-columns: 350px 350px;
+  }
+  @media screen and (max-width: 920px) {
+    grid-template-columns: auto;
+  }
 `;
-export const LatestNewsCol1 = styled.div``;
-export const LatestNewsCol2 = styled.div``;
-export const LatestNewsCol3 = styled.div``;
+export const LatestNewsCol1 = styled.div`
+  @media screen and (max-width: 920px) {
+    margin-bottom: 20px;
+  }
+`;
+export const LatestNewsCol2 = styled.div`
+  @media screen and (max-width: 920px) {
+    margin-bottom: 20px;
+  }
+`;
+export const LatestNewsCol3 = styled.div`
+  @media screen and (max-width: 920px) {
+    margin-bottom: 20px;
+  }
+`;
 export const NewsHeading = styled.h4`
   color: #333;
   font-size: 20px;
@@ -76,5 +94,3 @@ export const RightArrow = styled(HiArrowNarrowRight)`
     transition: transform 0.2s;
   }
 `;
-
-

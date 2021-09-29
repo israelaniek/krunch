@@ -10,6 +10,9 @@ export const DownloadNowContainer = styled.div`
   align-items: center;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c31c59f69ff41454c71140_video.jpg");
+    
+  background-position: center;
+  background-repeat: no-repeat;
 `;
 export const VideoIcon = styled(AiOutlinePlayCircle)`
   font-size: 100px;
@@ -23,4 +26,5 @@ export const VideoText = styled.p`
   line-height: 34px;
   font-style: italic;
   margin-bottom: 50px;
+  text-align: center;
 `;

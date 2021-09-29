@@ -25,6 +25,16 @@ export const PortfolioWrapper = styled.div`
   grid-template-columns: auto auto auto auto;
   grid-gap: 1px;
   margin-top: 50px;
+
+  @media screen and (max-width: 1211px) {
+    grid-template-columns: auto auto auto;
+  }
+  @media screen and (max-width: 1018px) {
+    grid-template-columns: auto auto;
+  }
+  @media screen and (max-width: 653px) {
+    grid-template-columns: auto;
+  }
 `;
 
 export const ImageWrapper = styled.div`

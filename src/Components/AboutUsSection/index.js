@@ -32,7 +32,7 @@ const AboutUs = () => {
           none are aware, there are those who forsake the services of a fault
           that soothes the soul, that is, the pain of pleasure and hardship.
         </AboutUsDescription>
-        <img src="https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c2f8bdb166809064184b60_home-about.jpg" />
+        <img src="https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c2f8bdb166809064184b60_home-about.jpg" alt='#'/>
       </AboutUsWrapper>
     </AboutUsContainer>
   );

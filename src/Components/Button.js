@@ -22,4 +22,8 @@ export const Button = styled.div`
     transition: all 0.5s ease-in-out;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 642px) {
+    margin-bottom: ${({ marginBottom }) => (marginBottom ? "10px" : "0")};
+  }
 `;

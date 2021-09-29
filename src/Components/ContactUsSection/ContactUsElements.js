@@ -4,7 +4,6 @@ export const ContactUsContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 150px;
   margin-bottom: 100px;
 `;
 export const ContactUsHeading = styled.h2`
@@ -27,6 +26,11 @@ export const FormContainer = styled.form`
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   margin-top: 50px;
+
+  @media screen and (max-width: 1083px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 // export const NameInputWrapper = styled.div``;
 export const FormInput = styled.input`
